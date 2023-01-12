@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+section{
+    padding: 100px 0;
+}
+
+/* Navigation styling */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    background-color: darkblue;
+    z-index: 999;
+}
+
+.navbar .sticky{
+    background: #111;
+    padding: 15px 0;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: greenyellow;
+    font-size: 20px;
+
+}
+
+
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease;
+   
+}
+.navbar .logo a:hover{
+    font-size: 40px;
+    color: greenyellow;
+}
+
+.navbar .logo i{
+    color: #fff;
+}
+.navbar .logo span{
+    color: #fff;
+    text-shadow: hotpink 3px 3px 3px;
+}
+
+.navbar .menu li{
+    display: inline-block;
+    transition: all 0.3s ease;
+    
+}
+.navbar .menu li:hover{
+    color: greenyellow;
+    
+}
+
+.max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.navbar .menu-btn .fas{
+    font-size: 30px;
+    color: #fff;
+
+
+}
+
+/* Home styling */
+
+.home{
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 256, 0.5), rgba(0, 0, 256, 0.5)), url(assets/banner\ 2.PNG) no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Playfair Display', serif;
+    background-size: cover;
+}
+
+.home .home-content{
+    font-size: 50px;
+    padding-top: 380px;
+    color: #fff;
+    text-shadow: hotpink 3px 3px 3px;
+    margin-left: 10px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+/* other pages styling */
+
+.home .max-width a{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 30px;
+    border-radius: 30px;
+     background: gray;
+     color: white;
+     margin-left: 250px;
+     transition: all 0.4s ease;
+
+}
+.home .max-width a:hover{
+    background: none;
+    border: 2px solid white;
+
+}
+
+section .portrait-2 .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section .portrait-2 .card img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 5px;
+
+
+}
+
+section .brute-2 .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+section .brute-2 .card img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 5px;
+
+
+}
+section .heaven-2 .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+section .heaven-2 .card img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 5px;
+
+
+}
+section .aura-2 .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+section .aura-2 .card img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 5px;
+
+
+}
+section .historical-2 .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+section .historical-2 .card img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin: 5px;
+
+
+}
+
+
+
+/* Live streaming styling */
+
+section .live .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+
+}
+
+section .live .card img{
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 35px;
+}
+
+.live .title::after{
+    content: "Live stream";
+    position: absolute;
+    background: #333;
+    bottom: -12px;
+    left: 50%;
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+section .live .card h3{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+section .live .card p{
+    padding: 20px 0;
+    font-size: 18px;
+
+}
+section .live .card .btn a{
+    background: blue;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+section .live .card .btn a:hover{
+    background: none;
+    border: 2px solid red;
+    color: red;
+    
+}
+
+
+/* About styling */
+
+.about .max-width .card img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 35px;
+
+
+}
+
+.about .max-width .card .right h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+   
+
+}
+
+.about .max-width .card .right a{
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px 0;
+    transition: all 0.4s ease;
+
+}
+
+.about .max-width .card .right a:hover{
+    background: none;
+    border: 2px solid blue;
+    color: #111;
+
+}
+
+.about .max-width .card .right p{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+
+/* Contact styling */
+
+.contact .title::after{
+    content: "contact us";
+    position: absolute;
+    background: #333;
+    bottom: -12px;
+    left: 50%;
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+iframe{
+    border-radius: 10px;
+
+}
+
+.contact .max-width .card .left .address{
+    background: lightcyan;
+    padding: 20px;
+    color: #111;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+.contact .max-width .card .left .addressh3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact .max-width .card .left .address p{
+    font-size: 18px;
+    font-weight: 600;
+    color: darkgoldenrod;
+
+}
+
+.contact .max-width form{
+    background-color: gray;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact .max-width form input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: navy;
+    padding: 6px 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact .max-width form textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: navy;
+    padding: 6px 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    resize: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* Featured styling */
+
+section .title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+
+
+}
+
+section .title::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: #333;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section .title::after{
+    content: "featured";
+    position: absolute;
+    background: #333;
+    bottom: -12px;
+    left: 50%;
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+/* Aura section styling */
+
+section .max-width .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+section .max-width .card img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+    
+
+
+}
+
+/* Services styling */
+
+.Services .title::after{
+    content: "why us";
+    position: absolute;
+    background: #333;
+    bottom: -12px;
+    left: 50%;
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+
+
+.Services .max-width .card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+
+
+}
+
+.Services .max-width .card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 35px;
+
+
+}
+
+.Services .max-width .card .right h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+   
+
+}
+
+.Services .max-width .card .right a{
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 30px;
+    margin: 20px 0;
+    transition: all 0.4s ease;
+
+}
+
+.Services .max-width .card .right a:hover{
+    background: none;
+    border: 2px solid blue;
+    color: #111;
+
+}
+
+.Services .max-width .card .right p{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+/* Footer */
+
+footer{
+    background: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+footer a{
+    color: aqua;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Media Query */
+
+@media (max-width: 700px){
+
+    .menu-btn{
+        display: inline-block;
+    }
+
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .navbar .menu{
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.4s ease;
+
+    }
+
+    .navbar .menu li{
+        display: block;
+    }
+
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 28px;
+
+
+    }
+
+    .menu-btn{
+        display: block;
+        z-index: 9999;
+    }
+
+    .navbar .menu.active{
+        left: 0;
+    }
+
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+
+
+
+
+
+
+}

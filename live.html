@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3b6c26645e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   
+    <title>Sameer_Khan</title>
+</head>
+<body>
+    <!-- Navigation section-->
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="fa fa-camera"></i>
+                    
+                    <span>Sameer_Khan</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="live.html">Live Streaming</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home section -->
+
+<section class="home">
+    <div class="max-width">
+        <a href="#">Follow our live coverage now!</a>
+        
+    </div>
+</section>
+
+
+
+<!-- Live streaming -->
+
+
+<section class="live">
+    <h2 class="title">Follow our live coverage</h2>
+    <div class="live">
+        <div class="card">
+            <div class="youtube">
+                <img src="assets/youtube.jpg" alt="">
+                <h3>Youtube</h3>
+                <p>capturraa__ advertises his youtube channel as a "philosophical approach to life and capturing light" & those philosophical things are evident in this channel through videos and pictures. Pro Photographer & Videographer.</p>
+                <div class="btn">
+                    <a href="#">Youtube live coverage &#8594;</a>
+                </div>
+            </div>
+            <div class="instagram">
+                <img src="assets/instagram.jpg" alt="">
+                <h3>Youtube</h3>
+                <p>capturraa__ advertises his instagram page as a "philosophical approach to life and capturing light" & those philosophical things are evident in this channel through videos and pictures. Pro Photographer & Videographer.</p>
+                <div class="btn">
+                    <a href="#">Instagram live coverage &#8594;</a>
+                </div>
+            </div>
+            <div class="twitter">
+                <img src="assets/twitter.png" alt="">
+                <h3>Youtube</h3>
+                <p>capturraa__ advertises his twitter page as a "philosophical approach to life and capturing light" & those philosophical things are evident in this channel through videos and pictures. Pro Photographer & Videographer.</p>
+                <div class="btn">
+                    <a href="#">Twitter live coverage &#8594;</a>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- Featured section -->
+
+<section class="featured">
+    <h2 class="title">Latest Photoshoot</h2>
+    <div class="container">
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="assets/hello.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/sky 2.JPG" alt=""></div>
+      <div class="swiper-slide"><img src="assets/hello 2.PNG" alt=""></div>
+      <div class="swiper-slide"><img src="assets/hello 3.PNG" alt=""></div>
+     
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <span>Designed by <a href="#">SAMARTECH </a>copyright <i class="fa fa-copyright"></i> 2023. All rights reserved</span>
+</footer>
+
+    
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+    </script>
+</body>
+</html>
